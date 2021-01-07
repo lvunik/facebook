@@ -39,6 +39,7 @@ export async function getServerSideProps(context) {
       subdomain: "gigi",
     };
   }
+  console.log(data);
   return {
     props: { data },
   };
