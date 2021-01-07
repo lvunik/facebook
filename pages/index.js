@@ -25,7 +25,7 @@ export default function Home({ data }) {
 export async function getServerSideProps(context) {
   const host = context.req.headers.host.split(".");
   console.log(host);
-  const subdomain = host.length === 2 ? host[0] : "";
+  const subdomain = host.length === 3 ? host[0] : "";
   console.log(subdomain);
   let data = null;
   if (subdomain === "bei") {
