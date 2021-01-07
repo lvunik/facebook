@@ -1,5 +1,3 @@
-import Head from "next/head";
-import axios from "axios";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
 export default function Home({ data }) {
